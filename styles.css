@@ -1,2 +1,47 @@
-
 /* Your CSS Code here. */
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.holder{
+	display: flex;
+	justify-content: space-between;
+	gap: 0 1px;
+	flex-wrap: wrap;
+}
+
+.item{
+	width: 100px;
+	height: 100px;
+}
+
+.item-1{
+	background-color: red;
+	order: 1;
+}
+
+.item-2{
+	background-color: blue;
+	order: 2;
+}
+
+.item-3{
+	background-color: green;
+}
+
+.item-4{
+	background-color: green;
+}
+
+.item-5{
+	background-color: green;
+}
+
+.item-6{
+	background-color: green;
+}
+
+.item-7{
+	background-color: green;
+}
